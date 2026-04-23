@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Node.js ECS Fargate App is running");
+  res.send("App updated from GitHub Actions CI/CD");;
 });
 
 app.get("/health", (req, res) => {
