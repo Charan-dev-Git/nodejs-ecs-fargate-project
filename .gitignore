@@ -1,0 +1,9 @@
+node_modules/
+.terraform/
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+.git-backup/
+
+terraform.tfstate
+terraform.tfstate.backup
